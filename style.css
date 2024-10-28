@@ -4,7 +4,7 @@
 * {
   margin: 10px 0px 10px 10px;
   padding: 5px;
-  background-color: rgba(255, 234, 234, 0.5); /*por que le pone fondos uno encima del otro?*/
+  background-color: rgba(255, 234, 234, 0.5); 
   font-family: "Titillium Web", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -12,6 +12,7 @@
 
   img 
   {
+    display: inline-block;
     margin: 10px 0px 0px 90%;
     padding: 5px;
   }
@@ -44,7 +45,7 @@
 
   .fondo-nav 
   {
-  background-color: #390fb2; /*quise poner aca !important y no pude, por que?*/
+  background-color: #390fb2; 
   }
 
   small  
@@ -59,22 +60,19 @@
   .container {
     min-width: 99%;
     background-color: rgba(57, 15, 178, 0.9);
-    display: inline-flex;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
-    /* align-items: flex-end; */
-    align-content: space-evenly;
+    display: inline-flex; 
+    flex-wrap: wrap; 
+    align-content: space-evenly; 
     justify-content: flex-start;
   }
   
   .item {
+    display: inline-block;
     font-family: "Titillium Web", sans-serif;
     font-weight: 700;
     color: #390fb2;
-    width: 100px;
-    /* height: 100px; */
-    background-color: rgba(255, 234, 234, 0.60);
+    width: 100px; 
+    background-color: rgba(255, 234, 234, 0.60); 
     border: solid;
     border-color: #ffeaea;
     align-items: baseline;
