@@ -72,3 +72,129 @@
     align-items: baseline;
     padding: 2em;
   }
+
+  @media screen and (max-width: 768px) {
+
+    * {
+            margin: 5px 5px 5px 5px;
+            padding: 1em;
+            background-color: rgba(255, 234, 234, 0.5); 
+            font-family: "Titillium Web", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            }
+          
+          h1, h2
+            {font-family: "Titillium Web", sans-serif;
+              font-weight: 700;
+              font-style: normal;
+              color: #390fb2;
+            }
+          
+            p    
+            {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            color: #390fb2;
+            }
+          
+            .fondo-nav 
+            {
+            background-color: #390fb2; 
+            }
+          
+            small  
+            {
+            color: #ffeaea;
+            }
+          
+            * {
+              box-sizing: border-box;
+            }
+    
+            .container {
+              min-width: 99%;
+              background-color: rgba(57, 15, 178, 0.9);
+              display: flex;
+              flex-wrap: wrap;
+              align-content: center;
+              justify-content: space-evenly;
+              flex-direction: row;
+              align-items: stretch;
+            }
+            
+            .item {
+              display: inline-block;
+              font-family: "Titillium Web", sans-serif;
+              font-weight: 700;
+              color: #390fb2;
+              width: 30%;
+              background-color: rgba(255, 234, 234, 0.60);
+              border: solid;
+              border-color: #ffeaea;
+              align-items: baseline;
+              padding: 2em;
+            }
+            } 
+
+  @media screen and (max-width: 425px) {
+
+    * {
+            margin: 5px 5px 5px 5px;
+            padding: 1em;
+            background-color: rgba(255, 234, 234, 0.5); 
+            font-family: "Titillium Web", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            }
+          
+          h1, h2
+            {font-family: "Titillium Web", sans-serif;
+              font-weight: 700;
+              font-style: normal;
+              color: #390fb2;
+            }
+          
+            p    
+            {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            color: #390fb2;
+            }
+          
+            .fondo-nav 
+            {
+            background-color: #390fb2; 
+            }
+          
+            small  
+            {
+            color: #ffeaea;
+            }
+          
+            * {
+              box-sizing: border-box;
+            }
+    
+            .container {
+              min-width: 99%;
+              background-color: rgba(57, 15, 178, 0.9);
+              display: flex;
+              flex-wrap: wrap;
+              align-content: center;
+              justify-content: space-evenly;
+              flex-direction: row;
+              align-items: stretch;
+            }
+            
+            .item {
+              display: inline-block;
+              font-family: "Titillium Web", sans-serif;
+              font-weight: 700;
+              color: #390fb2;
+              width: 30%;
+              background-color: rgba(255, 234, 234, 0.60);
+              border: solid;
+              border-color: #ffeaea;
+              align-items: baseline;
+              padding: 2em;
+            }
+            }
