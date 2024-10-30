@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
 
 * {
-  margin: 10px 0px 10px 10px;
+  margin: 10px 10px 10px 10px;
   padding: 5px;
   background-color: rgba(255, 234, 234, 0.5); 
   font-family: "Titillium Web", sans-serif;
@@ -147,20 +147,21 @@
             font-family: "Titillium Web", sans-serif;
             font-weight: 400;
             font-style: normal;
-            }
-
-          picture {display: block;
-            justify-content: center;
-            min-width: 100%
-          }
-
-          h1, h2
+      }
+            h1, h2
             {font-family: "Titillium Web", sans-serif;
               font-weight: 700;
               font-style: normal;
               color: #390fb2;
             }
-          
+
+            img 
+            {
+            display: block;
+            align-content: center;
+            max-width: 100%;
+            }
+
             p    
             {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-style: italic;
@@ -180,7 +181,7 @@
             * {
               box-sizing: border-box;
             }
-    
+
             .container {
               min-width: 99%;
               background-color: rgba(57, 15, 178, 0.9);
@@ -193,7 +194,7 @@
             }
             
             .item {
-              display: inline-block;
+              display: block;
               font-family: "Titillium Web", sans-serif;
               font-weight: 700;
               color: #390fb2;
