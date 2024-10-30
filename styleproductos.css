@@ -11,6 +11,8 @@
 
   a 
   {
+    min-width: 100%;
+    display: block;
   color: #390fb2;
   text-decoration: none;
   margin: 10px 95% 10px 10px;
@@ -114,7 +116,7 @@
             .container {
               min-width: 99%;
               background-color: rgba(57, 15, 178, 0.9);
-              display: flex;
+              display: block;
               flex-wrap: wrap;
               align-content: center;
               justify-content: space-evenly;
@@ -127,7 +129,7 @@
               font-family: "Titillium Web", sans-serif;
               font-weight: 700;
               color: #390fb2;
-              width: 30%;
+              width: 100%;
               background-color: rgba(255, 234, 234, 0.60);
               border: solid;
               border-color: #ffeaea;
@@ -146,7 +148,12 @@
             font-weight: 400;
             font-style: normal;
             }
-          
+
+          picture {display: block;
+            justify-content: center;
+            min-width: 100%
+          }
+
           h1, h2
             {font-family: "Titillium Web", sans-serif;
               font-weight: 700;
@@ -177,7 +184,7 @@
             .container {
               min-width: 99%;
               background-color: rgba(57, 15, 178, 0.9);
-              display: flex;
+              display: block;
               flex-wrap: wrap;
               align-content: center;
               justify-content: space-evenly;
@@ -190,7 +197,7 @@
               font-family: "Titillium Web", sans-serif;
               font-weight: 700;
               color: #390fb2;
-              width: 30%;
+              width: 100%;
               background-color: rgba(255, 234, 234, 0.60);
               border: solid;
               border-color: #ffeaea;
