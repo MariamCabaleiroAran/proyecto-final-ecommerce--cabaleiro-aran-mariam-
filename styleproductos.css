@@ -47,6 +47,27 @@
   color: #ffeaea;
   }
 
+  source
+  {
+  display: none;
+  }
+
+picture
+{margin: none;
+padding: none;
+background-color: none;
+display: block;
+align-content: center;
+max-width: 100%;
+}
+
+img {
+  background: none;
+  display: block;
+  align-content: center;
+  max-width: 100%;
+  }
+
   * {
     box-sizing: border-box;
   }
@@ -148,6 +169,18 @@
             font-weight: 400;
             font-style: normal;
       }
+
+      source {display: none;
+      }
+
+      label {
+        display: block;
+      }
+
+      img {display: block;
+        justify-content: center;
+        max-width: 100%
+      }
             h1, h2
             {font-family: "Titillium Web", sans-serif;
               font-weight: 700;
@@ -155,12 +188,7 @@
               color: #390fb2;
             }
 
-            img 
-            {
-            display: block;
-            align-content: center;
-            max-width: 100%;
-            }
+
 
             p    
             {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
