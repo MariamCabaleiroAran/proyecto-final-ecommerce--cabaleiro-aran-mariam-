@@ -4,64 +4,73 @@
       "id": 1,
       "title": "Albóndigas de lentejas",
       "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-      "image": "albo.jpg"
+      "image": "albo.jpg",
+      "precio": "$"
     },
     {
       "userId": 1,
       "id": 2,
       "title": "Bases para omellete",
       "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
-      "image": "omellete.jpg"
+      "image": "omellete.jpg",
+      "precio": "$"
     },
     {
         "userId": 1,
-        "id": 1,
+        "id": 3,
         "title": "Milas de tofu",
         "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-        "image": "milas.jpg"
+        "image": "milas.jpg",
+      "precio": "$"
       },
       {
         "userId": 1,
-        "id": 2,
+        "id": 4,
         "title": "Falafel",
         "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
-        "image": "falafel.jpg"
+        "image": "falafel.jpg",
+      "precio": "$"
       },
       {
         "userId": 1,
-        "id": 1,
+        "id": 5,
         "title": "Tortilla",
         "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-        "image": "tortilla.png"
+        "image": "tortilla.png",
+      "precio": "$"
       },
       {
         "userId": 1,
-        "id": 2,
+        "id": 6,
         "title": "Fajitas para tacos",
         "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
-        "image": "tacos.jpg"
+        "image": "tacos.jpg",
+      "precio": "$"
       },
       {
           "userId": 1,
-          "id": 1,
+          "id": 7,
           "title": "Capellettis",
           "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-          "image": "capellettis.jpg"
+          "image": "capellettis.jpg",
+      "precio": "$"
         },
         {
           "userId": 1,
-          "id": 2,
+          "id": 8,
           "title": "Ñoquis",
           "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
-          "image": "gnoquis.jpg"
+          "image": "gnoquis.jpg",
+      "precio": "$"
         }
         ,
         {
           "userId": 1,
-          "id": 2,
+          "id": 9,
           "title": "Fideos caseros",
           "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
-          "image": "fideos.jpg"
+          "image": "fideos.jpg",
+      "precio": "$"
         }
         
   ]
