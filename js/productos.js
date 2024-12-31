@@ -12,6 +12,7 @@ const cargarProductos = async () => {
   }
 };
 
+cargarProductos();
 const mostrarProductos = () => {
   const listadoProductos = document.querySelector(".listado-productos");
 
@@ -26,10 +27,10 @@ const mostrarProductos = () => {
     // button.onclick = () => {};
 
     const html = `
-        <article data-id="${producto.id}" data-nombre="${producto.nombre}">
-          <h3>${producto.nombre}</h3>
-          <img src="./img/${producto.imagen}" alt="${producto.nombre}" />
-          <p>${producto.descripcion}</p>
+        <article data-id="${producto.id}" data-nombre="${producto.title}">
+          <h3>${producto.title}</h3>
+          <img src="./img/${producto.image}" alt="${producto.title}" />
+          <p>${producto.body}</p>
           <p>$ ${producto.precio}</p>
           <a href="detalle.html?id=${producto.id}">Detalle</a>
           <button type="button" class="btn-agregar">Agregar</button>
